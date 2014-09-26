@@ -1,0 +1,44 @@
+// 	==================================================================
+//	MAIN.SCSS
+//
+//	Author: Randy Oest
+//	Company: Amazing Rando Design
+//	Email: oest@amazingrando.com
+//
+//	This file compiles into main.css, which is loaded in the HTML.
+//
+//	The various components of the site are broken down to make managing
+//	and updating them easier.
+// 	==================================================================
+
+
+//  ================================================
+//  Resetting a couple of things
+//  ================================================
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+// 	==================================================================
+//	Reset, Vars, and Mixins
+// 	==================================================================
+@import 'universal/normalize.scss';
+@import 'universal/vars.scss';
+@import 'universal/mixins.scss';
+
+
+// 	==================================================================
+//	Site specific
+// 	==================================================================
+@import 'modules/astrid.scss';
+
+
+
+
+

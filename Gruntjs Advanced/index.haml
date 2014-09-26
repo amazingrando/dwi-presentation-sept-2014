@@ -1,0 +1,34 @@
+!!! 5
+
+%html{:lang => "en"}
+
+	%head
+		%title Astrid
+		%meta{:charset => "utf-8"}
+		%meta{:name => "viewport", :content => "width=device-width, initial-scale=1"}
+
+		%link{:rel => "stylesheet", :href => "css/main.css"}
+
+	%body
+
+		-# ==========================================================================
+		-# Content
+		-# ==========================================================================
+
+		.container
+			%img{:src => "img/astrid-@@img.jpg", :alt => "Picture of Astrid being @@img"}/
+			.caption
+				%p Astrid loves her
+				%p.big @@person
+
+
+		-# JS
+		-# ==========================================================================
+
+		-# jQuery
+
+		%script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"}
+
+		-# Custom JS
+
+		%script{:src => "js/main.js"}

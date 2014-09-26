@@ -1,0 +1,90 @@
+// 	==================================================================
+//
+//	All Variables used are listed here.
+//
+// 	==================================================================
+
+
+// 	==================================================================
+//	Colors
+// 	==================================================================
+
+$purple    : #9c0493;
+$lightGray : #6e6e6f;
+$darkGray  : #444349;
+
+$text      : $lightGray;
+
+//	Example of a robust site's use of colors
+// 	==================================================================
+// Colors used in the site
+// $blue             : #0066cc;
+// $mediumBlue       : #4c94db;
+// $lightBlue        : #c6e3ff;
+// $ligtherBlue      : #aed7ff;
+// $paleBlue         : #e3f1ff;
+// $lightGray        : #ebebeb;
+// $yellow           : #ffff6a;
+// $gray             : #e5e5e5;
+
+// We set the colors for these here.
+// $text             : $pitt-blue;
+// $linkColor        : $blue;
+
+// //	Social media!
+// $sm-facebook      :	#3B5998;
+// $sm-twitter       :	#00aced;
+// $sm-linkedin      :	#4875B4;
+
+
+
+// 	==================================================================
+//	Fonts
+// 	==================================================================
+
+//	Fallback defaults
+$ff-sans-serif : Verdana, Geneva, sans-serif;
+$ff-sans       : "Helvetica Neue", Helvetica, Arial, sans-serif;
+$ff-serif      : Georgia, "Times New Roman", "DejaVu Serif", serif;
+
+
+// 	==================================================================
+//	Breakpoints
+//
+//	Papa = Desktop; Mama = tablet; Baby = Mobile
+// 	==================================================================
+$papa-bear   : 960px;
+$nav-bear    : 840px;
+$mama-bear   : 768px;
+$footer-bear : 600px;
+$baby-bear   : 480px;
+
+
+// 	==================================================================
+//	Misc
+// 	==================================================================
+
+//	Paths
+$img : "../img";
+
+//	Default spacing unit
+$unit: 10px;
+$padding-xsmall: $unit*.5;
+$padding-small: $unit;
+$padding-medium: $unit*2;
+$padding-large: $unit*3;
+$padding-xlarge: $unit*4;
+
+
+// 	Dimensions of things
+$max-width: 500px;
+
+
+
+
+
+
+
+
+
+

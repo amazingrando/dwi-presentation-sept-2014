@@ -1,0 +1,33 @@
+body {
+	background: url('#{$img}/bkg.jpg') top left $darkGray;
+}
+.container {
+	background: #fff;
+	border-radius: 10px;
+	font-family: $ff-serif;
+	@include centered-on-page;
+	margin-top: $padding-xlarge;
+	text-align: center;
+
+	img {
+		border-radius: 10px 10px 0 0;
+		display: block;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	p {
+		color: $text;
+		font-size: 2.25em;
+		line-height: 1;
+		margin: 0;
+
+		&.big {
+			color: $purple;
+			font-size: 4.5em;
+		}
+	}
+	.caption {
+		padding: $padding-large 0;
+	}
+}
